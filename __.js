@@ -11,7 +11,6 @@ var __ = {
         return __._key(key) in __.i18n;
     },
     bracket_keys : function(dict) {
-        /* This function is only to help obfusctating code */
         var out = {};
         for(var key in dict) {
             out[__._key(key)] = dict[key];
