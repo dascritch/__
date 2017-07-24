@@ -91,3 +91,5 @@ var __ = {
         return added;
     }
 };
+
+export default __;
